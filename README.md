@@ -21,13 +21,33 @@
 ---
 
 <h3 align="center">Skills</h3>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,golang,python" /><br>
-  <img src="https://skillicons.dev/icons?i=postgresql,mysql,redis,dynamodb,sqlite" /><br>
-  <img src="https://skillicons.dev/icons?i=aws,gitlab,docker" /><br>
-  <img src="https://img.icons8.com/?size=512&id=21893&format=png" height="48px"/>
+<div align="center">
+  <table>
+    <tr>
+      <th>Language</th>
+      <th>Storage</th>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=js,ts,nodejs,golang,python" /></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=postgresql,mysql,redis,dynamodb" /></td>
+    </tr>
+    <tr>
+      <th>Cloud / Tools / Container</th>
+      <th>API Communication Technologies</th>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=aws,gitlab,github,docker" /></td>
+      <td align="center"><img src="https://img.icons8.com/?size=512&id=21893&format=png" height="48px"/>
   <img src="https://pics.freeicons.io/uploads/icons/png/6158480871552037069-512.png" height="48px"/>
-  <img src="https://grpc.io/img/logos/grpc-logo.png" height="48px"/><br>
-  <img src="https://skillicons.dev/icons?i=react,tailwind" />
-</p>
+  <img src="https://grpc.io/img/logos/grpc-logo.png" height="48px"/><br></td>
+    </tr>
+        <tr>
+      <th align="center">FrontEnd</th>
+      <th></th>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=react,tailwind" /></td>
+      <td></td>
+    </tr>
+  </table>
+</div>
