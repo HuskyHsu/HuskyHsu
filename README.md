@@ -1,12 +1,15 @@
 <h1 align="center">Hi 👋, I'm ShihChi</h1>
 <h3 align="center">A passionate web developer from Taiwan</h3>
 <p align="center">
-  <code>Backend architecture</code> / <code>System Design</code> / <code>Cloud System Design</code>
+  <code>Backend Architecture</code> / <code>System Design</code> / <code>Cloud System Design</code>
 </p>
 
 <p align="center">
-  <a href="mailto:schi.hsu@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="26px"/></a>
-  <a href="https://www.linkedin.com/in/shihchihsu"><img src="https://skillicons.dev/icons?i=linkedin" height="26px"/></a>
+reach out to me by
+</p>
+<p align="center">
+  <a href="mailto:schi.hsu@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="32px"/></a>
+  <a href="https://www.linkedin.com/in/shihchihsu"><img src="https://skillicons.dev/icons?i=linkedin" height="32px"/></a>
 </p>
 
 <p align="center">
