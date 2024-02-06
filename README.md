@@ -32,22 +32,22 @@
       <td align="center"><img src="https://skillicons.dev/icons?i=postgresql,mysql,redis,dynamodb" /></td>
     </tr>
     <tr>
-      <th>Cloud / Tools / Container</th>
+      <th>Cloud / Container</th>
       <th>API Communication Technologies</th>
     </tr>
     <tr>
-      <td align="center"><img src="https://skillicons.dev/icons?i=aws,gitlab,github,docker" /></td>
+      <td align="center"><img src="https://skillicons.dev/icons?i=aws,gcp,docker,k8s" /></td>
       <td align="center"><img src="https://img.icons8.com/?size=512&id=21893&format=png" height="48px"/>
   <img src="https://pics.freeicons.io/uploads/icons/png/6158480871552037069-512.png" height="48px"/>
   <img src="https://grpc.io/img/logos/grpc-logo.png" height="48px"/><br></td>
     </tr>
-        <tr>
-      <th align="center">FrontEnd</th>
-      <th></th>
+    <tr>
+      <th>Tools</th>
+      <th>FrontEnd</th>
     </tr>
     <tr>
+      <td align="center"><img src="https://skillicons.dev/icons?i=gitlab,github" /></td>
       <td align="center"><img src="https://skillicons.dev/icons?i=react,tailwind" /></td>
-      <td></td>
     </tr>
   </table>
 </div>
