@@ -19,7 +19,15 @@
 
 <p align="center">
   <sub>TECH STACK</sub><br/><br/>
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,golang,python,postgresql,mysql,redis,dynamodb,aws,gcp,docker,k8s,react,tailwind&perline=15" height="28px" alt="Tech Stack"/>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=js,ts,nodejs,golang,python,rust" height="28px" alt="Languages & Backend"/>
+  &nbsp;&nbsp;
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=grpc,websocket" height="28px" alt="Protocols"/>
+  &nbsp;&nbsp;
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=postgresql,mysql,redis,dynamodb" height="28px" alt="Databases"/>
+  &nbsp;&nbsp;
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=aws,docker,k8s" height="28px" alt="Cloud & Infra"/>
+  &nbsp;&nbsp;
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=react,tailwind" height="28px" alt="Frontend"/>
 </p>
 
 ---
@@ -65,10 +73,10 @@
 <details>
 <summary>📋 Project Directory (Repositories &amp; Live Links)</summary>
 
-| Project            | Category             | Created |     Status      | Links                                                                                                                                                                                                    |
-| :----------------- | :------------------- | :-----: | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Project            | Category             | Created |     Status      | Links                                                                                                                                                                                                     |
+| :----------------- | :------------------- | :-----: | :-------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Hé Kim Koo**     | Hardware & Desktop   | 2026-11 |    🟢 Active    | <a href="https://github.com/HuskyHsu/he-kim-koo" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/he-kim-koo/" target="_blank" rel="noopener noreferrer">Live</a> |
-| **Ghost Pad**      | Hardware & Desktop   | 2026-10 |    🟢 Active    | <a href="https://github.com/HuskyHsu/ghost-pad" target="_blank" rel="noopener noreferrer">Repo</a>                                                                                                       |
+| **Ghost Pad**      | Hardware & Desktop   | 2026-10 |    🟢 Active    | <a href="https://github.com/HuskyHsu/ghost-pad" target="_blank" rel="noopener noreferrer">Repo</a>                                                                                                        |
 | **RotomDex**       | Pokédex & Gaming     | 2026-07 |    🟢 Active    | <a href="https://github.com/HuskyHsu/rotomdex" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/rotomdex/" target="_blank" rel="noopener noreferrer">Live</a>     |
 | **Somnus**         | Creative & Lifestyle | 2026-06 |    🟢 Active    | <a href="https://github.com/HuskyHsu/somnus" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/somnus/" target="_blank" rel="noopener noreferrer">Live</a>         |
 | **Dot Weaver**     | Creative & Lifestyle | 2026-05 |    🟢 Active    | <a href="https://github.com/HuskyHsu/dot-weaver" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/dot-weaver/" target="_blank" rel="noopener noreferrer">Live</a> |
@@ -78,6 +86,6 @@
 | **SleePoke**       | Pokédex & Gaming     | 2023-07 | 🟡 Discontinued | <a href="https://github.com/HuskyHsu/sleepoke" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/sleepoke/" target="_blank" rel="noopener noreferrer">Live</a>     |
 | **Paldea**         | Pokédex & Gaming     | 2022-11 |    🟢 Active    | <a href="https://github.com/HuskyHsu/paldea" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/paldea/" target="_blank" rel="noopener noreferrer">Live</a>         |
 | **Hisui (Arceus)** | Pokédex & Gaming     | 2022-02 |    🟢 Active    | <a href="https://github.com/HuskyHsu/arceus" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/arceus/" target="_blank" rel="noopener noreferrer">Live</a>         |
-| **NookLink**       | Pokédex & Gaming     | 2020-04 | 🟡 Discontinued | <a href="https://github.com/HuskyHsu/NookLink" target="_blank" rel="noopener noreferrer">Repo</a>                                                                                                        |
+| **NookLink**       | Pokédex & Gaming     | 2020-04 | 🟡 Discontinued | <a href="https://github.com/HuskyHsu/NookLink" target="_blank" rel="noopener noreferrer">Repo</a>                                                                                                         |
 
 </details>
