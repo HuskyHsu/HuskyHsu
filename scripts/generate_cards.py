@@ -197,6 +197,7 @@ def make_svg(card: dict) -> str:
     else:
         art = f'<image href="{data_uri}" x="278" y="20" width="112" height="104" preserveAspectRatio="xMidYMid meet" />'
 
+    badge_x = 80
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="144" viewBox="0 0 420 144" role="img" aria-label="{title} - {subtitle} ({created})">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -213,10 +214,10 @@ def make_svg(card: dict) -> str:
     <text x="24" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#1e293b">{title}</text>
     <text x="24" y="61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#64748b">{subtitle}</text>
     <text x="24" y="81" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#94a3b8">{stack}</text>
-    <rect x="24" y="98" width="{badge_w}" height="22" rx="11" fill="{badge_bg}"/>
-    <circle cx="35" cy="109" r="3.5" fill="{dot_fg}"/>
-    <text x="44" y="113" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="{badge_fg}">{status_label}</text>
-    <text x="{24 + badge_w + 10}" y="113" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748b">{created}</text>
+    <text x="24" y="113" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#64748b">{created}</text>
+    <rect x="{badge_x}" y="98" width="{badge_w}" height="22" rx="11" fill="{badge_bg}"/>
+    <circle cx="{badge_x + 11}" cy="109" r="3.5" fill="{dot_fg}"/>
+    <text x="{badge_x + 20}" y="113" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="{badge_fg}">{status_label}</text>
   </g>
   <rect x="0.5" y="0.5" width="419" height="143" rx="15.5" ry="15.5" fill="none" stroke="#cbd5e1" stroke-opacity="0.65"/>
 </svg>'''
