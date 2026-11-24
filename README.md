@@ -1,22 +1,25 @@
 <h1 align="center">Hi 👋, I'm ShihChi</h1>
-<h3 align="center">A passionate full-stack &amp; systems developer from Taiwan — building web apps, system tools, and playful side projects</h3>
+<h3 align="center">Backend-Focused Systems Engineer in the Networking Industry · Taiwan</h3>
 
 <p align="center">
   <code>Backend Architecture</code> · <code>System Design</code> · <code>Cloud System Design</code>
 </p>
 
 <p align="center">
-  By day, I design backend &amp; cloud systems; by night, I turn ideas into interactive web apps, desktop bridges, and playful tools.
+  By day, I build backend services and cloud systems for networking products; by night, I turn ideas into interactive web apps, desktop bridges, and playful tools.
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,golang,python,postgresql,mysql,redis,dynamodb,aws,gcp,docker,k8s,react,tailwind&perline=15" height="28px" alt="Tech Stack"/>
-</p>
-
-<p align="center">
-  <a href="mailto:schi.hsu@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" height="28px" alt="Gmail"/></a>
+  <a href="mailto:schi.hsu@gmail.com"><img src="https://img.shields.io/badge/Email-schi.hsu%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/shihchihsu" target="_blank" rel="noopener noreferrer"><img src="https://skillicons.dev/icons?i=linkedin" height="28px" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/shihchihsu" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-shihchihsu-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
+
+---
+
+<p align="center">
+  <sub>TECH STACK</sub><br/><br/>
+  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,golang,python,postgresql,mysql,redis,dynamodb,aws,gcp,docker,k8s,react,tailwind&perline=15" height="28px" alt="Tech Stack"/>
 </p>
 
 ---
@@ -35,9 +38,6 @@
 </p>
 
 <h2 align="center">🎮 Pokédex &amp; Gaming</h2>
-<p align="center">
-  <sub>A multi-generation Pokédex series — unified under <a href="https://huskyhsu.github.io/rotomdex/" target="_blank" rel="noopener noreferrer">RotomDex</a>.</sub>
-</p>
 
 <p align="center">
   <a href="https://HuskyHsu.github.io/lumiose/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/lumiose.svg" width="400" alt="Lumiose - Legends Z-A Pokédex"/></a>
@@ -52,7 +52,7 @@
 <p align="center">
   <a href="https://huskyhsu.github.io/kanto/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/kanto.svg" width="400" alt="Kanto - FireRed & LeafGreen Pokédex"/></a>
   &nbsp;
-  <a href="https://huskyhsu.github.io/rotomdex/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/rotomdex.svg" width="400" alt="RotomDex - Pokédex Hub Portal"/></a>
+  <a href="https://huskyhsu.github.io/rotomdex/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/rotomdex.svg" width="400" alt="RotomDex - Unified Multi-Gen Pokédex"/></a>
 </p>
 <p align="center">
   <a href="https://huskyhsu.github.io/sleepoke/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/sleepoke.svg" width="400" alt="SleePoke - Pokémon Sleep Companion"/></a>

@@ -113,7 +113,7 @@ CARDS = [
     {
         "id": "rotomdex",
         "title": "RotomDex",
-        "subtitle": "Pokédex Hub Portal",
+        "subtitle": "Unified Multi-Gen Pokédex",
         "created": "2026-07",
         "stack": "Vite · Vanilla JS",
         "status": "Active",
