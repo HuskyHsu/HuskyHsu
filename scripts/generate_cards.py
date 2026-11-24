@@ -27,7 +27,7 @@ CARDS = [
         "subtitle": "Firefly · Garmin GPS Trail",
         "created": "2026-11",
         "stack": "Monkey C · TypeScript · React",
-        "status": "Active",
+        "status": "In Progress",
         "grad": ("#f0fdf4", "#fefce8"),
         "icon": "he-kim-koo.svg",
         "mode": "contain",
@@ -154,6 +154,28 @@ def encode_icon(filename: str) -> str:
     return f"data:{mime};base64,{b64}"
 
 
+STATUS_STYLES = {
+    "Active": {
+        "bg": "#dcfce7",
+        "fg": "#166534",
+        "dot": "#22c55e",
+        "width": 64,
+    },
+    "In Progress": {
+        "bg": "#dbeafe",
+        "fg": "#1e40af",
+        "dot": "#3b82f6",
+        "width": 96,
+    },
+    "Discontinued": {
+        "bg": "#f1f5f9",
+        "fg": "#475569",
+        "dot": "#94a3b8",
+        "width": 104,
+    },
+}
+
+
 def make_svg(card: dict) -> str:
     """Render a self-contained 420x144 SVG card for the given project metadata."""
     data_uri = encode_icon(card["icon"])
@@ -162,13 +184,13 @@ def make_svg(card: dict) -> str:
     subtitle = html.escape(card["subtitle"])
     created = html.escape(card["created"])
     stack = html.escape(card["stack"])
-    is_active = card["status"] == "Active"
+    status_label = card["status"]
+    style = STATUS_STYLES[status_label]
 
-    badge_bg = "#dcfce7" if is_active else "#f1f5f9"
-    badge_fg = "#166534" if is_active else "#475569"
-    dot_fg = "#22c55e" if is_active else "#94a3b8"
-    status_label = "Active" if is_active else "Discontinued"
-    badge_w = 64 if is_active else 104
+    badge_bg = style["bg"]
+    badge_fg = style["fg"]
+    dot_fg = style["dot"]
+    badge_w = style["width"]
 
     if card["mode"] == "bleed":
         art = f'<image href="{data_uri}" x="248" y="-10" width="168" height="168" preserveAspectRatio="xMidYMid meet" />'
