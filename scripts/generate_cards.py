@@ -145,6 +145,63 @@ CARDS = [
     },
 ]
 
+FOCUS_CARDS = [
+    {
+        "id": "focus-backend",
+        "title": "Backend Architecture",
+        "desc": "High-concurrency services for networking & cloud",
+        "meta": "Node.js · Go · Rust · System Design",
+        "grad": ("#eef2ff", "#e0f2fe"),
+        "badge_bg": "#e0e7ff",
+        "accent": "#4f46e5",
+        "icon_svg": (
+            '<rect x="1.5" y="2" width="13" height="5" rx="1.5"/>'
+            '<rect x="1.5" y="9" width="13" height="5" rx="1.5"/>'
+            '<circle cx="4.5" cy="4.5" r="0.6" fill="#4f46e5"/>'
+            '<circle cx="4.5" cy="11.5" r="0.6" fill="#4f46e5"/>'
+        ),
+    },
+    {
+        "id": "focus-realtime",
+        "title": "Real-time Systems",
+        "desc": "Bidirectional communication & distributed design",
+        "meta": "gRPC · WebSocket · Event-Driven",
+        "grad": ("#ecfdf5", "#ecfeff"),
+        "badge_bg": "#ccfbf1",
+        "accent": "#0d9488",
+        "icon_svg": (
+            '<path d="M2 5.5h12m0 0-3-3m3 3-3 3"/>'
+            '<path d="M14 10.5H2m0 0 3-3m-3 3 3 3"/>'
+        ),
+    },
+    {
+        "id": "focus-data",
+        "title": "Data & Caching Systems",
+        "desc": "Relational, NoSQL & caching for high-throughput",
+        "meta": "PostgreSQL · MySQL · Redis · DynamoDB",
+        "grad": ("#fdf2f8", "#f5f3ff"),
+        "badge_bg": "#ede9fe",
+        "accent": "#7c3aed",
+        "icon_svg": (
+            '<ellipse cx="8" cy="3.5" rx="5.5" ry="2"/>'
+            '<path d="M2.5 3.5v9c0 1.1 2.46 2 5.5 2s5.5-.9 5.5-2v-9"/>'
+            '<path d="M2.5 8c0 1.1 2.46 2 5.5 2s5.5-.9 5.5-2"/>'
+        ),
+    },
+    {
+        "id": "focus-cloud",
+        "title": "Cloud Infrastructure",
+        "desc": "Scalable AWS cloud architecture & deployment",
+        "meta": "AWS · Docker · Kubernetes",
+        "grad": ("#fff7ed", "#fefce8"),
+        "badge_bg": "#fef3c7",
+        "accent": "#d97706",
+        "icon_svg": (
+            '<path d="M4.5 13h7.5a3 3 0 0 0 .4-5.97A4.5 4.5 0 0 0 3.7 8.1 2.5 2.5 0 0 0 4.5 13z"/>'
+        ),
+    },
+]
+
 
 def encode_icon(filename: str) -> str:
     """Base64-encode a local PNG or SVG icon as a data URI."""
@@ -223,11 +280,50 @@ def make_svg(card: dict) -> str:
 </svg>'''
 
 
+def make_focus_svg(card: dict) -> str:
+    """Render a compact 420x96 SVG card for an engineering focus pillar."""
+    g1, g2 = card["grad"]
+    title = html.escape(card["title"])
+    desc = html.escape(card["desc"])
+    meta = html.escape(card["meta"])
+    badge_bg = card["badge_bg"]
+    accent = card["accent"]
+    icon_svg = card["icon_svg"]
+    font = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="96" viewBox="0 0 420 96" role="img" aria-label="{title} - {desc}">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="{g1}"/>
+      <stop offset="100%" stop-color="{g2}"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="420" height="96" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="420" height="96" fill="url(#bg)"/>
+    <rect x="20" y="30" width="36" height="36" rx="10" fill="{badge_bg}"/>
+    <g transform="translate(30, 40)" fill="none" stroke="{accent}" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+      {icon_svg}
+    </g>
+    <text x="72" y="36" font-family="{font}" font-size="16" font-weight="700" fill="#1e293b">{title}</text>
+    <text x="72" y="57" font-family="{font}" font-size="12.5" font-weight="500" fill="#64748b">{desc}</text>
+    <text x="72" y="75" font-family="{font}" font-size="11" font-weight="500" fill="#94a3b8">{meta}</text>
+  </g>
+  <rect x="0.5" y="0.5" width="419" height="95" rx="15.5" ry="15.5" fill="none" stroke="#cbd5e1" stroke-opacity="0.65"/>
+</svg>'''
+
+
 def main() -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for card in CARDS:
         out_path = OUT_DIR / f"{card['id']}.svg"
         out_path.write_text(make_svg(card), encoding="utf-8")
+        print(f"Generated: {out_path.relative_to(ROOT_DIR)}")
+    for card in FOCUS_CARDS:
+        out_path = OUT_DIR / f"{card['id']}.svg"
+        out_path.write_text(make_focus_svg(card), encoding="utf-8")
         print(f"Generated: {out_path.relative_to(ROOT_DIR)}")
 
 

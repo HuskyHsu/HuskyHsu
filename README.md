@@ -18,6 +18,20 @@
 ---
 
 <p align="center">
+  <sub>ENGINEERING FOCUS</sub><br/><br/>
+  <img src="./assets/cards/focus-backend.svg" width="400" alt="Backend Architecture - High-concurrency services for networking & cloud"/>
+  &nbsp;
+  <img src="./assets/cards/focus-realtime.svg" width="400" alt="Real-time Systems - Bidirectional communication & distributed design"/>
+</p>
+<p align="center">
+  <img src="./assets/cards/focus-data.svg" width="400" alt="Data & Caching Systems - Relational, NoSQL & caching for high-throughput"/>
+  &nbsp;
+  <img src="./assets/cards/focus-cloud.svg" width="400" alt="Cloud Infrastructure - Scalable AWS cloud architecture & deployment"/>
+</p>
+
+<br/>
+
+<p align="center">
   <sub>TECH STACK</sub><br/><br/>
   <img src="https://go-skill-icons.vercel.app/api/icons?i=js,ts,nodejs,golang,python,rust" height="28px" alt="Languages & Backend"/>
   &nbsp;&nbsp;
@@ -48,7 +62,7 @@
 <h2 align="center">🎮 Pokédex &amp; Gaming</h2>
 
 <p align="center">
-  <a href="https://HuskyHsu.github.io/lumiose/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/lumiose.svg" width="400" alt="Lumiose - Legends Z-A Pokédex"/></a>
+  <a href="https://huskyhsu.github.io/lumiose/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/lumiose.svg" width="400" alt="Lumiose - Legends Z-A Pokédex"/></a>
   &nbsp;
   <a href="https://huskyhsu.github.io/paldea/" target="_blank" rel="noopener noreferrer"><img src="./assets/cards/paldea.svg" width="400" alt="Paldea - Scarlet & Violet Pokédex"/></a>
 </p>
@@ -81,7 +95,7 @@
 | **Somnus**     | Creative & Lifestyle | 2026-06 |    🟢 Active    | <a href="https://github.com/HuskyHsu/somnus" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/somnus/" target="_blank" rel="noopener noreferrer">Live</a>         |
 | **Dot Weaver** | Creative & Lifestyle | 2026-05 |    🟢 Active    | <a href="https://github.com/HuskyHsu/dot-weaver" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/dot-weaver/" target="_blank" rel="noopener noreferrer">Live</a> |
 | **Kanto**      | Pokédex & Gaming     | 2026-03 |    🟢 Active    | <a href="https://github.com/HuskyHsu/kanto" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/kanto/" target="_blank" rel="noopener noreferrer">Live</a>           |
-| **Lumiose**    | Pokédex & Gaming     | 2025-10 |    🟢 Active    | <a href="https://github.com/HuskyHsu/lumiose" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://HuskyHsu.github.io/lumiose/" target="_blank" rel="noopener noreferrer">Live</a>       |
+| **Lumiose**    | Pokédex & Gaming     | 2025-10 |    🟢 Active    | <a href="https://github.com/HuskyHsu/lumiose" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/lumiose/" target="_blank" rel="noopener noreferrer">Live</a>       |
 | **Galar**      | Pokédex & Gaming     | 2024-02 |    🟢 Active    | <a href="https://github.com/HuskyHsu/galar" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/galar/" target="_blank" rel="noopener noreferrer">Live</a>           |
 | **SleePoke**   | Pokédex & Gaming     | 2023-07 | 🟡 Discontinued | <a href="https://github.com/HuskyHsu/sleepoke" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/sleepoke/" target="_blank" rel="noopener noreferrer">Live</a>     |
 | **Paldea**     | Pokédex & Gaming     | 2022-11 |    🟢 Active    | <a href="https://github.com/HuskyHsu/paldea" target="_blank" rel="noopener noreferrer">Repo</a> · <a href="https://huskyhsu.github.io/paldea/" target="_blank" rel="noopener noreferrer">Live</a>         |
