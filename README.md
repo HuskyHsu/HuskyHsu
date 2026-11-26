@@ -9,12 +9,6 @@
   By day, I build backend services and cloud systems for networking products; by night, I turn ideas into interactive web apps, desktop bridges, and playful tools.
 </p>
 
-<p align="center">
-  <a href="mailto:schi.hsu@gmail.com"><img src="https://img.shields.io/badge/Email-schi.hsu%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/shihchihsu" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-shihchihsu-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
-
 ---
 
 <p align="center">
@@ -103,3 +97,9 @@
 | **NookLink**   | Pokédex & Gaming     | 2020-04 | 🟡 Discontinued | <a href="https://github.com/HuskyHsu/NookLink" target="_blank" rel="noopener noreferrer">Repo</a>                                                                                                         |
 
 </details>
+
+<br/>
+
+<p align="center">
+  <sub>Open to chat — <a href="mailto:schi.hsu@gmail.com">schi.hsu@gmail.com</a> · <a href="https://www.linkedin.com/in/shihchihsu" target="_blank" rel="noopener noreferrer">LinkedIn</a></sub>
+</p>
